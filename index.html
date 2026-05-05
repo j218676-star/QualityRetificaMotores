@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Retífica de Motores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-fixo">
+    <nav class="container-nav">
+        <!-- Logo posicionado à esquerda -->
+        <div class="logo">
+            <img src="img/Logo.PNG" alt="Quality Retífica Logo">
+        </div>
+        <!-- Links de navegação -->
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section id="sobre" class="secao-sobre">
+            <h1>Sobre Nós</h1>
+            <p>Com mais de 20 anos de atuação em Limeira/SP, a Quality Retífica de Motores é referência em retífica e manutenção de motores automotivos. Nossa equipe altamente qualificada utiliza equipamentos modernos e tecnologia de ponta para garantir precisão, qualidade e durabilidade em cada serviço realizado. Confie na nossa experiência para restaurar o desempenho original do seu motor.</p>
+        </section>
+
+        <section id="servicos" class="secao-servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Retífica de Bloco</h3>
+                    <p>Retificação precisa de blocos de motor, incluindo honagem de cilindros, retificação de plainas e recuperação de dimensões originais para máxima eficiência.</p>
+                </div>
+                <div class="card">
+                    <h3>Usinagem</h3>
+                    <p>Serviços de usinagem CNC de alta precisão para fabricação e recuperação de peças mecânicas complexas.</p>
+                </div>
+                <div class="card">
+                    <h3>Tornearia</h3>
+                    <p>Torneamento convencional e CNC de eixos, virabrequins e componentes cilíndricos com tolerâncias milimétricas.</p>
+                </div>
+                <div class="card">
+                    <h3>Fresagem</h3>
+                    <p>Fresagem de superfícies, calços, guias e volutas, garantindo planicidade e acabamento superior.</p>
+                </div>
+                <div class="card">
+                    <h3>Retífica de Cabeçote</h3>
+                    <p>Retificação de cabeçotes, recondicionamento de válvulas, sedes e guias para selagem perfeita.</p>
+                </div>
+                <div class="card">
+                    <h3>Alinhamento de Virabrequim</h3>
+                    <p>Alinhamento dinâmico e retificação de virabrequins, restaurando balanceamento e reduzemdo vibrações.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="secao-galeria">
+            <h2>Galeria</h2>
+            <div class="galeria-imagens">
+                <img src="Foto01.PNG" alt="Foto 1 - Trabalhos na Retífica">
+                <img src="Foto02.PNG" alt="Foto 2 - Equipamentos Modernos">
+                <img src="Foto03.PNG" alt="Foto 3 - Retífica de Bloco">
+                <img src="Foto04.PNG" alt="Foto 4 - Usinagem Precisa">
+                <img src="Foto05.PNG" alt="Foto 5 - Cabeçote Restaurado">
+                <img src="Foto06.PNG" alt="Foto 6 - Virabrequim Alinhado">
+            </div>
+        </section>
+
+        <section id="contato">
+  <div class="contato-container">
+    <div class="form-container">
+      <form action="https://formspree.io/f/COLOQUE_SEU_ID_AQUI" method="POST">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="modelo" placeholder="Modelo do Motor" required>
+        <textarea name="mensagem" placeholder="Mensagem" required rows="5"></textarea>
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </div>
+    <div class="map-container">
+     <iframe 
+    src="https://maps.google.com/maps?q=R.%20Jo%C3%A3o%20Soares%20da%20Vinha,%2060%20-%20Jardim%20Paulista,%20Limeira%20-%20SP&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+    width="100%" 
+    height="400" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2023 Quality Retífica de Motores. R. João Soares da Vinha, 60 - Jardim Paulista, Limeira - SP, 13484-415.
+                Telefone: (19)3703-5200 / WhatsApp: (19)99418-0337
+        </p>
+    </footer>
+
+    <div class="whatsapp-fluatante">
+        <a href="https://wa.me/5511994180337?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os." target="_blank" rel="noopener noreferrer">
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <script>
+        // Smooth scroll para links de âncora
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<div class="logo">
+    <img src="Logo.PNG" alt="Quality Retífica Logo">
+</div>
