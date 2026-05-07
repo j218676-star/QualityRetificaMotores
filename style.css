@@ -329,3 +329,16 @@ footer {
   list-style: none;
   display: flex;
 }
+.rodape p {
+  margin: 10px;
+}
+
+.rodape a {
+  color: #e4405f;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.rodape a:hover {
+  text-decoration: underline;
+}
